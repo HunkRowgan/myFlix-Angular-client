@@ -7,6 +7,7 @@ import { MovieDetailsComponent } from '../movie-details/movie-details.component'
 // movie-card.component.ts
 import { SharedImageService } from '../shared-image.service';
 
+//comment
 // Mapping of ImagePaths to hosted URLs
 /*const imagePathMapping: { [key: string]: string } = {
   'shawshankredemption.png': 'https://i.ibb.co/f0JB4nR/shawshankredemption.png',
