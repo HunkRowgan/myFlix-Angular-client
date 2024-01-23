@@ -36,6 +36,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/myFlix-Angular-client/",
               "budgets": [
                 {
                   "type": "initial",
