@@ -1,7 +1,11 @@
+<!--
 <div class="main-page">
   <h1>
     Welcome to myFlix!
   </h1>
+-->
+  <!-- USER REGISTRATION & LOGIN BUTTON -->
+  <!--
   <button
     mat-raised-button
     (click)="openUserRegistrationDialog()"
@@ -11,9 +15,20 @@
     Sign Up
   </button>
   <button
-    mat-raised-button
-    color="primary"
+  mat-raised-button
+  (click)="openUserLoginDialog()"
+  style="margin-right: 10px"
+  color="primary"
   >
     Login
   </button>
-</div>
+  <button
+  mat-raised-button 
+  (click)="openMoviesDialog()"
+  color="primary"
+  >
+    All Movies
+  </button>
+</div> 
+-->
+<router-outlet></router-outlet>

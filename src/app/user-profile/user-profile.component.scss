@@ -1,0 +1,86 @@
+.profile-page {
+    background-color: #e8f7ee;
+    height: 100vh;
+    color: #3c362a;
+  }
+  
+  .profile-form {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem auto;
+      max-width: 50%;
+      
+    } 
+  
+  .profile-title {
+    text-align: center;
+     font-size: 26px;
+     letter-spacing: 1px;
+  }
+  
+    .update-btn {
+      font-size: 18px;
+      padding: 1.3rem;
+      background-color: #663f46!important;
+      color: #e8f7ee!important; 
+    }
+  
+    .delete-btn {
+      float: right;
+      background-color: #a51c30!important;
+      color: #e8f7ee!important; 
+      font-size: 18px;
+      padding: 1.3rem;
+    }
+  
+  @media screen and (max-width: 768px) {
+    .profile-form {
+      max-width: 80%;
+    }
+    .update-btn {
+      font-size: 14px;
+      padding: 1rem;
+      margin: 1rem;
+    }
+    .delete-btn {
+      font-size: 14px;
+      padding: 1rem;
+      float: right;
+      margin: 1rem
+    }
+  }
+
+  .movie-page{
+    background-color: #e8f7ee;
+    color: #3c362a;
+}
+
+  .movie-container {
+    display: grid;
+    margin: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    margin: 20px;
+}
+
+
+.favmovie-image {
+    height: 200px; /* Set your desired fixed height */
+    width: auto; /* Let the width adjust based on aspect ratio */
+    object-fit: contain; /* Maintain aspect ratio and cover the entire container */
+  }
+  .favmovie-image {
+    height: 200px; /* Set your desired fixed height */
+    width: auto; /* Let the width adjust based on aspect ratio */
+    margin: 20px;
+    object-fit: contain; /* Maintain aspect ratio and cover the entire container */
+  }
+
+.favmovie-title {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 1rem auto;
+    text-align: center;
+}

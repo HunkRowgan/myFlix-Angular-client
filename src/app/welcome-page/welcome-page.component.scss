@@ -1,0 +1,21 @@
+.welcome-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f7ee;
+}
+
+h1 {
+    color: #3c362a;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.btn {
+    margin: 0.5rem;
+    padding: 1.5rem;
+    background-color: #663f46!important;
+    color: #e8f7ee!important; 
+    font-size: 18px;
+}
