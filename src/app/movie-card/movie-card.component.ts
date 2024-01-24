@@ -1,3 +1,21 @@
+/**
+ * Movie Card Component
+ *
+ * Angular component responsible for displaying movie cards, handling user interactions,
+ * and managing movie details.
+ *
+ * Sections:
+ * 1. Dependencies
+ * 2. Image Path Mapping
+ * 3. Component Definition and Initialization
+ * 4. User Authentication and Movie Retrieval
+ * 5. Movie and Genre Details
+ * 6. Image URL Handling
+ * 7. Favorite Movies Handling
+ *
+ * @module MovieCardComponent
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { FetchApiDataService } from '../fetch-api-data.service';
 import { Router } from '@angular/router';

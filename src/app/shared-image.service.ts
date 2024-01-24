@@ -1,3 +1,17 @@
+/**
+ * Shared Image Service
+ *
+ * Angular service providing image URLs based on predefined image paths.
+ *
+ * Sections:
+ * 1. Dependencies
+ * 2. Service Declaration
+ * 3. Image Path Mapping
+ * 4. Image URL Retrieval
+ *
+ * @module SharedImageService
+ */
+
 // shared-image.service.ts
 import { Injectable } from '@angular/core';
 

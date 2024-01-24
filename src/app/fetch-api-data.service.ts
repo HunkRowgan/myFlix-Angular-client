@@ -1,3 +1,22 @@
+/**
+ * Fetch API Data Service
+ *
+ * Angular service that handles API calls for user authentication, movie retrieval,
+ * user data manipulation, and favorite movie management.
+ *
+ * Sections:
+ * 1. Dependencies
+ * 2. Service Declaration
+ * 3. User Registration
+ * 4. User Login
+ * 5. Movie Retrieval
+ * 6. User and Movie Specific Requests
+ * 7. Response Data Extraction
+ * 8. Error Handling
+ *
+ * @module FetchApiDataService
+ */
+
 import { Injectable } from '@angular/core';
 import { catchError } from 'rxjs/operators';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';

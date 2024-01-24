@@ -1,5 +1,22 @@
 // user-profile.component.ts
 
+/**
+ * User Profile Component
+ *
+ * Angular component responsible for displaying and managing user profile information,
+ * including favorite movies, updating user data, and deleting the user account.
+ *
+ * Sections:
+ * 1. Dependencies
+ * 2. Type Definitions
+ * 3. Component Definition and Initialization
+ * 4. Movie Retrieval and User Data Initialization
+ * 5. Image URL Handling
+ * 6. User Update and Delete Operations
+ *
+ * @module UserProfileComponent
+ */
+
 import { Component, OnInit, Input } from '@angular/core';
 import { FetchApiDataService } from '../fetch-api-data.service';
 import { MatSnackBar } from '@angular/material/snack-bar';

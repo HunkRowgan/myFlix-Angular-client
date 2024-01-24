@@ -1,3 +1,17 @@
+/**
+ * App Module
+ *
+ * Angular module that defines the application structure and configuration.
+ *
+ * Sections:
+ * 1. Dependencies
+ * 2. Route Definitions
+ * 3. Declarations and Imports
+ * 4. Bootstrap Component
+ *
+ * @module AppModule
+ */
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
